@@ -93,8 +93,36 @@ a {
     padding: 1rem 2rem;
     cursor: pointer;
     border-radius: .5rem;
+    display: inline-block;
 }
 
 .cta-primary:hover {
     background: var(--colorAcentoClaro);
+}
+
+/*HERO*/
+.hero {
+    background: url('../img/portada_hero.jpg') center/cover no-repeat;
+    height: 70vh;
+    position: relative;
+}
+
+.hero__overlay {
+    background: rgba(0, 0, 0, .5);
+    height: 100%;
+}
+
+.hero__contenido {
+    color: var(--colorBlanco);
+    height: 100%;
+    padding-top: 20rem;
+}
+
+.hero__contenido h2 {
+    font-family: var(--fuenteSecundaria);
+    font-size: 4.8rem;
+}
+
+.hero__contenido p {
+    margin: 1rem 0 2rem;
 }

@@ -23,7 +23,17 @@
             </div>
         </header>
         <main>
-            <p>Contenido principal</p>
+            <!--HERO SECTION-->
+            <section class="hero">
+                <div class="hero__overlay">
+                    <div class="hero__contenido container">
+                        <h2>Gourmet Criollo</h2>
+                        <p>Sabor que honra la tradición</p>
+                        <a class="cta-primary" href="#">Reservar mesa</a>
+                    </div>
+                </div>
+            </section>
+
         </main>
         <footer class="footer">
             <p>Footer</p>
